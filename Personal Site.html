@@ -1,0 +1,127 @@
+<!--355+356 -->
+
+<!DOCTYPE html>
+<!--This is the document type -->
+<html lang="en">
+<!--This is an html tag that says everything from now until another html tag is found will be html -->
+<!--The code consists of a head and a body. The head holds information about the webpage,
+ for instance the title of the page-->
+<!--The body gives the content - e.g. name, title, images and so on-->
+
+<!--Meta gives extra stuff to the webpage. Here we say all the text is encoded in the UFT-8 system  -->
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Kim's homepage</title>
+    </head>
+
+    <body>
+        <h1>Hello there!</h1>
+        <!--358 images. We can right click on image and copy image address-->
+        <!--alt is in case a browser cannot browse the image, then it prints out a text -->
+        <!--Google uses alt in their search function-->
+        <!--we can also take an image from the same folder as the html-->
+        <!--<img src="IMAGE_NAME", alt="General Kenobi image"> -->
+
+        <img src="https://i.kym-cdn.com/entries/icons/mobile/000/029/079/hellothere.jpg" , alt="General Kenobi image">
+
+        <!--We can add a paragraph using <p> and make it italic using <em>-->
+        <!--We can make something bold using <strong>-->
+
+        <p>General Kenobi!<em> You are a <strong>bold</strong> one. </em></p>
+        <p>Your move!</p>
+
+        <!--359 - HTML links and anchor tags. We will now see how to refer to other webpages-->
+        <!--href can also be a file inside pycharm and can by other htmls!-->
+
+        <p>To understand this,<a href="https://knowyourmeme.com/memes/hello-there"> see this link</a> </p>
+        <hr size="3">
+        <h3>Questions to pass the bridge:</h3>
+        <!--357 lists-->
+        <!--here we use <ul> which stands for unordered list-->
+        <ul>
+            <li>What is your name?</li>
+            <li>What is your quest?</li>
+            <li>What is the airspeed velocity of an unladen swallow?</li>
+        </ul>
+        <!--we can also make an ordered list using <ol>-->
+        <h3>Answers:</h3>
+        <ol>
+            <li>It is Arthur, King of the Britons.</li>
+            <li>To seek the Holy Grail.</li>
+            <li> <a href="https://www.youtube.com/watch?v=liIlW-ovx0Y">What do you mean?
+                An African or European swallow?</a>I don't know that</li>
+        </ol>
+        <a href="hobbies.html">My Hobbies</a>
+        <!-- # 361 html tables - we want to make a table of what we've done and when we've done it. We here use tables
+         and top row tr to create two date elements. To represent the cells we use table data td elements
+         To create headers, body and footer and so on, we can use table head (th), tbody and tfoot and these are bold
+         To create outlines to the tables, we write border inside table.
+         362 - tables for layout We can create spacing between cells using cellspacing so e.g. <table cellspacing="2">
+         All this is based on https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table-->
+
+        <hr>
+        <h3>Table</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Dates</th>
+                        <th>School</th>
+                    </tr>
+                </thead>
+
+                <tr>
+                    <td>2000-2010</td>
+                    <td>School A</td>
+                </tr>
+                <tr>
+                    <td>2010-2020</td>
+                    <td>School B</td>
+                </tr>
+            </table>
+              <!--        363 - create table with Skills as h3 and then all 4 skills in a 2x2 table. We will do this
+              in a nested table. We will make a table with two table data and then put our tables in here: -->
+        <hr>
+        <h3>Skills</h3>
+          <table>
+              <tr>
+                  <td>
+                      <table cellspacing="10">
+                          <tr>
+                              <td>Python</td>
+                              <td>⭐⭐⭐⭐</td>
+                          </tr>
+                          <tr>
+                              <td>MatLab</td>
+                              <td>⭐⭐⭐</td>
+                          </tr>
+                      </table>
+                  </td>
+                  <td>
+                      <table cellspacing="10">
+                          <tr>
+                              <td>Excel</td>
+                              <td>⭐⭐</td>
+                          </tr>
+                          <tr>
+                              <td>TI-NSpire</td>
+                              <td>⭐⭐</td>
+                          </tr>
+                      </table>
+                  </td>
+              </tr>
+          </table>
+        <!--366 - HTML forms. We now allow the user to write stuff to us. We will do this in hobbies.html using forms
+        Documentation is found here: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form-->
+
+        <!-- 367. Forms in Practice - Create a Contact Me Form -->
+
+
+
+
+
+
+
+
+    </body>
+</html>
